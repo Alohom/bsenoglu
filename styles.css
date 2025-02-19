@@ -1,0 +1,114 @@
+/* Genel Stil - Profesyonel Koyu Tema */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ddd; /* Açık gri yazı rengi */
+    
+    /* Teknolojik Siyah-Mor Arka Plan */
+    background-image: url('wallpaper.jpg'); /* Arka plan görseli */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #0a0a0a; /* Yedek siyah renk (resim yüklenmezse) */
+}
+
+/* Profesyonel Kutular */
+.profile-box, .education, .cv-section, .contact {
+    background: rgba(20, 20, 20, 0.85); /* Daha şeffaf koyu gri arka plan */
+    width: 50%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px; /* Daha yumuşak köşeler */
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.3); /* Hafif mor parıltı efekti */
+    border: 1px solid rgba(255, 0, 255, 0.4); /* İnce mor çerçeve */
+}
+
+/* Profil Fotoğrafı */
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #bb00ff; /* Mor çerçeve */
+    margin-bottom: 15px;
+}
+
+/* Eğitim Logosunu Küçültme */
+.iztech-logo {
+    width: 75px; /* Küçük ama net görünmesi için */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* CV Butonu - Daha Modern Görünüm */
+.cv-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #bb00ff, #6600cc);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 12px rgba(255, 0, 255, 0.6);
+}
+
+.cv-button:hover {
+    background: linear-gradient(45deg, #6600cc, #bb00ff);
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
+    transform: scale(1.08);
+}
+
+/* Sosyal Medya Linkleri - Yan Yana */
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+/* Sosyal Medya İkonları */
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 8px #bb00ff);
+}
+
+/* Scroll Bar Koyu Tema */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #121212; /* Scroll bar arka planı */
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #bb00ff, #6600cc);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #6600cc, #bb00ff);
+}
+
+/* Footer */
+footer {
+    background: #121212;
+    color: #bbb;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 0, 255, 0.3);
+}
